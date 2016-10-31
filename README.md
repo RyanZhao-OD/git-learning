@@ -157,7 +157,7 @@ git remote -v
 
 
 ## fork
-把别人的项目原封不动的拷贝一份放置到自己的github上，只能fork一次
+> 把别人的项目原封不动的拷贝一份放置到自己的github上，只能fork一次
 
 ## 从github拉到本地
 ```
