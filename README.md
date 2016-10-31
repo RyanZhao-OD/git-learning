@@ -1,6 +1,6 @@
 ##配置使用人的账号和邮箱
 ```
-git config --global user.name ryanzhao
+git config --global user.name ryanzhao1993
 git config --global user.email ryanzhao1993@qq.com
 git config --list 查看所有配置
 ```
