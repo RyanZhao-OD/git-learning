@@ -1,3 +1,5 @@
+![profile](image/profile.png)
+
 ##配置使用人的账号和邮箱
 ```
 git config --global user.name ryanzhao1993
