@@ -61,17 +61,17 @@ git reflog
 ```
 
 ## 比较代码差异
-* 比较工作区和暂存区的区别
+- 比较工作区和暂存区的区别
 ```
 git diff
 ```
 
-* 比较工作区和历史区的区别
+- 比较工作区和历史区的区别
 ```
 git diff master
 ```
 
-* 比较暂存区和历史区的区别
+- 比较暂存区和历史区的区别
 ```
 git diff --cached
 ```
@@ -80,8 +80,7 @@ git diff --cached
 ```
 git reset HEAD <file>
 ```
-
-> 取消本次的add
+取消本次的add
 
 ## 从缓存区 从历史区将代码覆盖掉工作区
 ```
@@ -97,73 +96,73 @@ git reset HEAD~6
 
 
 ##分支
-* 查看所有分支
+- 查看所有分支
 ```
 git branch
 ```
 
-* 创建分支
+- 创建分支
 ```
 git branch <branch_name>
 ```
 
-* 切换分支
+- 切换分支
 ```
 git checkout <branch_name>
 ```
 
-* 创建并切换
+- 创建并切换
 ```
 git checkout -b <branch_name>
 ```
 
-* 删除分支
+- 删除分支
 ```
 git branch -d <branch_name>
 git branch -d <branch_name>
 ```
 
-* 合并分支
+- 合并分支
 ```
 git merge <branch_name>
 ```
 
-> 在master上拉取一条branch，在branch上进行开发，开发后，在master上将代码进行合并
-> 如果master上目前没有人开发，可以使用快转的方式，将我们的指针直接指向到分支的最新装态 fast-forward
+在master上拉取一条branch，在branch上进行开发，开发后，在master上将代码进行合并
+如果master上目前没有人开发，可以使用快转的方式，将我们的指针直接指向到分支的最新装态 fast-forward
 
 * 解决冲突
 
-> 去掉>>>>>> ========  <<<<<<< 保留需要的内容再次提交
+去掉>>>>>> ========  <<<<<<< 保留需要的内容再次提交
 
-* 合并
+- 合并
 
-> git rebase 变基
-> git cherry-pick 精选
+git rebase 变基
+git cherry-pick 精选
 
-* 显示结构
+- 显示结构
 ```
 git log --graph --oneline --decorate
 ```
 
 
 ##远程仓库
-* 添加远程仓库的连接
+- 添加远程仓库的连接
 ```
 git remote add <alias> <github_url>
 ```
-* 删除地址
+- 删除地址
 ```
 git remote rm <alias>
 ```
 
-* 查看远程仓库地址
+- 查看远程仓库地址
 ```
 git remote -v
 ```
 
 
 ## fork
-> 把别人的项目原封不动的拷贝一份放置到自己的github上，只能fork一次
+把别人的项目原封不动的拷贝一份放置到自己的github上，只能`fork`一次
 
 ## 从github拉到本地
 ```
@@ -171,11 +170,11 @@ git clone <github_url> <dir_name>
 ```
 
 ## 项目添加callorbrators
-> settings-> callorbrators -> add
+settings-> callorbrators -> add
 
 ## 在github上部署静态页
-> 需要将特定的内容push到github上的gh-pages分支上
-> branch名字必须是gh-pages
+需要将特定的内容push到github上的gh-pages分支上
+branch名字必须是gh-pages
 
 - 创建一个gh-pages的分支,并切换到该分支
 ```
