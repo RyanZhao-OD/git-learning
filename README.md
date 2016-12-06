@@ -1,5 +1,8 @@
 ![profile](image/profile.png)
 
+
+![profile](image/git.png)
+
 ##配置使用人的账号和邮箱
 ```
 git config --global user.name ryanzhao1993
@@ -13,7 +16,8 @@ git init
 ```
 
 ## 创建忽略文件
-> .gitignore文件
+
+- .gitignore文件
 ```
 .idea
 node_modules
